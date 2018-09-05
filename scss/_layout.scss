@@ -1,6 +1,10 @@
 // For footer and Details section
 
+// Variables
+
 $colour: #222;
+
+// Footer
 
 #footer-main{
     background: $colour;
@@ -16,12 +20,17 @@ $colour: #222;
 	text-decoration: none;
 }
 
+// Navbar
+
 header nav{
 	background-color:black;
 }
-header nav li:hover{
+header nav li:hover, .dropdown-item:hover{
 	background: blue;
 }
+
+//Details section
+
 .section-content img{
 	max-height:30%;
 	max-width:100%;

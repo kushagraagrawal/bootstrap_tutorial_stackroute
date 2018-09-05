@@ -1,20 +1,24 @@
 // SCSS file for Bootstrap elements Jumbotron and Carousel
 
-//jumbotron
+// Variables and Mixins
+
+$font-colour: white;
 
 @mixin bginfo($url, $repeat, $position, $size, $attachment){
-	background: $url;
-	background-repeat: $repeat;
-	background-position: $position;
-	background-size: $size;
-	background-attachment: $attachment;
+  background: $url;
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+  background-attachment: $attachment;
 }
 
 @mixin textdetails($colour, $positioning, $alignment){
-	color: $colour;
-	position: $positioning;
-	text-align: $alignment;
+  color: $colour;
+  position: $positioning;
+  text-align: $alignment;
 }
+
+//jumbotron
 
 .jumbotron {
   min-height:500px;
@@ -39,9 +43,6 @@
 
 
 // carousel
-
-$font-colour: white;
-
 
 #carousel_feedback{
     background: url('../img/programming.jpg') center center no-repeat;
