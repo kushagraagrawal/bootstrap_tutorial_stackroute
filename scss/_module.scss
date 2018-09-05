@@ -27,8 +27,9 @@
 .jumbotron h1 {
   	
   	@include textdetails(white, relative, center);
-  	
+  	letter-spacing:0px;
  	padding-top: 150px;
+	font-size: 10vh;
 }
 .jumbotron p {
 	
