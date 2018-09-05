@@ -1,17 +1,34 @@
+@mixin bginfo($url, $repeat, $position, $size, $attachment){
+	background: $url;
+	background-repeat: $repeat;
+	background-position: $position;
+	background-size: $size;
+	background-attachment: $attachment;
+}
+
+@mixin textdetails($colour, $positioning, $alignment){
+	color: $colour;
+	position: $positioning;
+	text-align: $alignment;
+}
+
 .jumbotron {
   min-height:500px;
-  background: url('../img/background.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
+  
+  @include bginfo(url('../img/background.jpg'), no-repeat, center, cover, fixed);
+
   position:relative;
   
 }
 .jumbotron h1 {
-  	color:white;
- 	position: relative;
- 	text-align: center;
+  	
+  	@include textdetails(white, relative, center);
+  	
  	padding-top: 150px;
+}
+.jumbotron p {
+	
+	@include textdetails(white, relative, center);
+  	
 }
 

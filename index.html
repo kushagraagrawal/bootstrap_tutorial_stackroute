@@ -7,53 +7,56 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<title>Getting started.....</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title>Ex 2</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-		<a class="navbar-brand" href="#">
-			<img src="img/logo.png" width="200" height="30" alt="logo">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+	<header id="home">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" width="200" height="30" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Disabled</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		</div>
-	</nav>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	</header>
 
 	
 	<div class="jumbotron">
 
 		<div class="container">
-			<h1 class="display-4">Fluid jumbotron</h1>
+			<h1 class="display-4">Expeditious Travels</h1>
+			<p>Planning fun, affordable holidays for everyone since 2014.</p>
 
 		</div>	
 
@@ -67,7 +70,7 @@
 	<section id="what-we-do">
          <div class="section-content">
          	<div class="container">
-         		<h2>What we do</h2>
+         		<h2>Popular Packages</h2>
          		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium commodi non quod mollitia animi, totam quia labore ex est ut delectus consectetur explicabo eveniet maiores, cumque aut repudiandae. Natus!</p>
 
          		<div class="row">
@@ -76,13 +79,26 @@
          					<div class="card">
          						<img class="card-img-top" src="img/ladakh.jpg" alt="Card image cap">
          						<div class="card-body">
-         							<h5 class="card-title">Card title</h5>
-         							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         							<h5 class="card-title">Ladakh</h5>
+         							<ul class="card-text">
+         								<li>
+         									Visit the Thicksey and Hemis Monastery
+         								</li>
+         								<li>
+         									Drive to Nubra Valley via Khardung-La, the highest motorable road in the world.
+         								</li>
+         								<li>
+         									Drive to the famous Pangong-Tso, the lake famous for it's pristine waters and movie shootings.
+         								</li>
+         								<li>
+         									Explore the quaint Leh market, famous for its antiques and restaurants.
+         								</li>
+         							</ul>
          						</div>
          						<div class="card-footer">
          							<p>
-         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1"> Read More</a>
-         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2"> Read More again</a>
+         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1"> Itinerary</a>
+         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2"> Price</a>
          							</p>
          							<div class="collapse" id="collapseExample1">
          								<div class="card card-body">
@@ -99,13 +115,26 @@
          					<div class="card">
          						<img class="card-img-top" src="img/north-east.jpg" alt="Card image cap">
          						<div class="card-body">
-         							<h5 class="card-title">Card title</h5>
-         							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+         							<h5 class="card-title">Darjeeling-Gangtok</h5>
+         							<ul class="card-text">
+         								<li>
+         									Visit Tiger Hill to eyewitness a beautiful sunrise
+         								</li>
+         								<li>
+         									Yak ride at Tsomgo Lake and Visit Baba Mandir
+         								</li>
+         								<li>
+         									Visit to Happy Valley Tea estate, Batasia Loop. Ghoom Monastery, Peace pagoda,and Japanese Temple
+         								</li>
+         								<li>
+         									A memorable ride Darjeeling Himalayan Railway (Toy Train), a UNESCO World Heritage Site
+         								</li>
+         							</ul>
          						</div>
          						<div class="card-footer">
          							<p>
-         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3"> Read More</a>
-         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4"> Read More again</a>
+         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">Itinerary</a>
+         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">Price</a>
          							</p>
          							<div class="collapse" id="collapseExample3">
          								<div class="card card-body">
@@ -120,15 +149,31 @@
          						</div>
          					</div>
          					<div class="card">
-         						<img class="card-img-top" src="img/singapore.jpg" alt="Card image cap">
+         						<img class="card-img-top" src="img/Singapore-Bali-Geteway.jpg" alt="Card image cap">
          						<div class="card-body">
-         							<h5 class="card-title">Card title</h5>
-         							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+         							<h5 class="card-title">Singapore-Bali</h5>
+         							<ul class="card-text">
+         								<li>
+         									Enjoy the exotic beaches at Bali
+         								</li>
+         								<li>
+         									Experience Singapore’s Night Safari.
+         								</li>
+         								<li>
+         									Visit Singapore’s Colonial Heart, Universal Studios and Singapore Zoo.
+         								</li>
+         								<li>
+         									If you visit during March, you can catch the Singapore GP,the only F1 race held at night.
+         								</li>
+         								<li>
+         									Something about Singapore
+         								</li>
+         							</ul>
          						</div>
          						<div class="card-footer">
          							<p>
-         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5"> Read More</a>
-         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6"> Read More again</a>
+         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">Itinerary</a>
+         								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">Price</a>
          							</p>
          							<div class="collapse" id="collapseExample5">
          								<div class="card card-body">
@@ -159,12 +204,12 @@
      					<div class="carousel-caption">
      						<div class="row">
      							<div class="col-sm-3">
-     								<img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid"/>
+     								<img src="http://via.placeholder.com/200x200" alt="Ringo" class="rounded-circle img-fluid">
      							</div>
      							<div class="col-sm-9">
-     								<h3>Gives me hope</h3>
-     								<small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
-     								<small class="smallest mute">- Yayo Dudemous</small>
+     								<h3>Very professional</h3>
+     								<small>I booked a trip to Malaysia through Expeditious travels. They were very professional in their approach and handled everything very smoothly. Kudos to them to make this one of the best vacations I've had.</small>
+     								<small class="smallest mute">- Ringo Starr</small>
      							</div>
      						</div>
      					</div>
@@ -177,8 +222,8 @@
      							</div>
      							<div class="col-sm-9">
      								<h3>You will love it.</h3>
-     								<small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
-     								<small class="smallest mute">- Yayo Dudemous</small>
+     								<small>Expeditious travels lives upto the name, planning my trek to the Rohtang Pass right down to the hotel room number. Very methodical in their approach, I stopped worrying about logistics after I called them.</small>
+     								<small class="smallest mute">- John Lennon</small>
      							</div>
      						</div>
      					</div>
@@ -190,9 +235,9 @@
      								<img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid">
      							</div>
      							<div class="col-sm-9">
-     								<h3>Velvet pouch!</h3>
-     								<small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
-     								<small class="smallest mute">- Yayo Dudemous</small>
+     								<h3>The best in travel lodgings!</h3>
+     								<small>Wanted to visit the quaint areas of Ladakh to practice my music, but it was proving impossible given my schedule. Thankfully Expeditious travels saved me by finding the right time, duration of package. I dedicate my Grammy to them.</small>
+     								<small class="smallest mute">- Paul McCarthy</small>
      							</div>
      						</div>
      					</div>
