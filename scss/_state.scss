@@ -1,0 +1,10 @@
+// media queries
+
+@media only screen and (max-width: 960px){
+    .card .carousel-caption .col-sm-3{
+        display: none;
+    }
+    .card .carousel-item{
+        height: 250px;
+    }
+}

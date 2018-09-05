@@ -1,3 +1,44 @@
+// jumbotron, cards, carousel
+
+//jumbotron
+
+@mixin bginfo($url, $repeat, $position, $size, $attachment){
+	background: $url;
+	background-repeat: $repeat;
+	background-position: $position;
+	background-size: $size;
+	background-attachment: $attachment;
+}
+
+@mixin textdetails($colour, $positioning, $alignment){
+	color: $colour;
+	position: $positioning;
+	text-align: $alignment;
+}
+
+.jumbotron {
+  min-height:500px;
+  
+  @include bginfo(url('../img/background.jpg'), no-repeat, center, cover, fixed);
+
+  position:relative;
+  
+}
+.jumbotron h1 {
+  	
+  	@include textdetails(white, relative, center);
+  	
+ 	padding-top: 150px;
+}
+.jumbotron p {
+	
+	@include textdetails(white, relative, center);
+  	
+}
+
+
+// carousel
+
 $font-colour: white;
 
 
@@ -5,7 +46,7 @@ $font-colour: white;
     background: url('../img/programming.jpg') center center no-repeat;
     background-size: cover;
     padding-bottom: 100px;
-    //margin-bottom: 20px;
+    
 }
 #carousel_card {
   margin: 0 auto;
@@ -57,13 +98,4 @@ a > .ico {
 }
 a:hover > .ico {
     background-color: #666;
-}
-
-@media only screen and (max-width: 960px){
-    .card .carousel-caption .col-sm-3{
-        display: none;
-    }
-    .card .carousel-item{
-        height: 250px;
-    }
 }
