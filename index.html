@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Stylesheet for Font Awesome and FavIcon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title>Ex 2</title>
+<script type="text/javascript" src="bundle.js"></script></head>
+<body>
+	<!-- Header tag containing navbar -->
+	<header id="home">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" width="200" height="30" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#what-we-do">Popular packages</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#carousel_feedback">Testimonials</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Learn More
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">About us</a>
+							<a class="dropdown-item" href="#">The ET way</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Careers at ET</a>
+						</div>
+					</li>
+					
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Hero Image wrapped in Jumbotron class-->.	
+	<div class="jumbotron">
+
+		<div class="container">
+			<h1 class="display-4">Expeditious Travels</h1>
+			<p>Planning fun, affordable holidays for everyone since 2014.</p>
+
+		</div>	
+
+		
+	</div>
+	
+
+	
+	
+	<!-- Section containing Popular Packages, written in Cards -->
+	<section id="what-we-do">
+		<div class="section-content">
+			<div class="container">
+				<h2 style="text-align: center; margin-bottom: 10px;">Popular Packages</h2>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card-deck">
+							<div class="card">
+								<img class="card-img-top" src="img/ladakh.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Ladakh</h5>
+									<ul class="card-text">
+										<li>
+											Visit the Thicksey and Hemis Monastery
+										</li>
+										<li>
+											Drive to Nubra Valley via Khardung-La, the highest motorable road in the world.
+										</li>
+										<li>
+											Drive to the famous Pangong-Tso, the lake famous for it's pristine waters and movie shootings.
+										</li>
+										<li>
+											Explore the quaint Leh market, famous for its antiques and restaurants.
+										</li>
+									</ul>
+								</div>
+								<div class="card-footer">
+									<p>
+										<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1"> Itinerary</a>
+										<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2"> Price</a>
+									</p>
+									<div class="collapse" id="collapseExample1">
+										<div class="card card-body">
+											<p>
+												5 days 4 nights. Includes day of acclimatising, followed by visit to Thicksey and Hemis. Day 3 is travel to Nubra Valley, with the final two days for roaming around Leh.
+											</p>
+										</div>
+									</div>
+									<div class="collapse" id="collapseExample2">
+										<div class="card card-body">
+											<p>
+												Packages starting at INR 35000. Book today!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<img class="card-img-top" src="img/north-east.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Darjeeling-Gangtok</h5>
+									<ul class="card-text">
+										<li>
+											Visit Tiger Hill to eyewitness a beautiful sunrise
+										</li>
+										<li>
+											Yak ride at Tsomgo Lake and Visit Baba Mandir
+										</li>
+										<li>
+											Visit to Happy Valley Tea estate, Batasia Loop. Ghoom Monastery, Peace pagoda,and Japanese Temple
+										</li>
+										<li>
+											A memorable ride Darjeeling Himalayan Railway (Toy Train), a UNESCO World Heritage Site
+										</li>
+									</ul>
+								</div>
+								<div class="card-footer">
+									<p>
+										<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">Itinerary</a>
+										<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">Price</a>
+									</p>
+									<div class="collapse" id="collapseExample3">
+										<div class="card card-body">
+											<p>
+												6 days 5 nights. Includes checking into hotel, followed by a day of relaxation. Subsequent days include visit to Tiger Hill and ride on the Toy Train. Day 3 travel to Gangtok and visit the Tsomgo Lake.
+											</p>
+										</div>
+									</div>
+									<div class="collapse" id="collapseExample4">
+										<div class="card card-body">
+											<p>
+												Packages starting at INR 30000. Book today!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<img class="card-img-top" src="img/Singapore-Bali-Geteway.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Singapore-Bali</h5>
+									<ul class="card-text">
+										<li>
+											Enjoy the exotic beaches at Bali
+										</li>
+										<li>
+											Experience Singapore’s Night Safari.
+										</li>
+										<li>
+											Visit Singapore’s Colonial Heart, Universal Studios and Singapore Zoo.
+										</li>
+										<li>
+											If you visit during March, you can catch the Singapore GP,the only F1 race held at night.
+										</li>
+										<li>
+											Enjoy water sports at Bali such as parasailing at no extra cost.
+										</li>
+									</ul>
+								</div>
+								<div class="card-footer">
+									<p>
+										<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">Itinerary</a>
+										<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">Price</a>
+									</p>
+									<div class="collapse" id="collapseExample5">
+										<div class="card card-body">
+											<p>
+												7 days 6 nights. First 4 days in Singapore include roaming the city, guided tour of the city, visit to the zoo and a free day where you can roam the city on your own. Day 5 morning we travel to Bali where you can enjoy the local attractions for 2 whole days. 
+											</p>
+										</div>
+									</div>
+									<div class="collapse" id="collapseExample6">
+										<div class="card card-body">
+											<p>
+												Packages starting at INR 40000. Book today!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Carousel for feedback from customers -->
+	<section id="carousel_feedback">
+		<div class="container">
+			<h2 id="carousel_heading"> Testimonials of some of our customers </h2>
+			<div class="card col-md-6 mt-5 mb-5" id="carousel_card">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="100000">
+					<div class="w-100 carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="carousel-caption">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="img/stockphoto.jpg" alt="Ringo" class="rounded-circle img-fluid">
+									</div>
+									<div class="col-sm-9">
+										<h3>Very professional</h3>
+										<small>I booked a trip to Malaysia through Expeditious travels. They were very professional in their approach and handled everything very smoothly. Kudos to them to make this one of the best vacations I've had.</small>
+										<small class="smallest mute">- Ringo Starr</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="img/stockphoto.jpg" alt="" class="rounded-circle img-fluid">
+									</div>
+									<div class="col-sm-9">
+										<h3>You will love it.</h3>
+										<small>Expeditious travels lives upto the name, planning my trek to the Rohtang Pass right down to the hotel room number. Very methodical in their approach, I stopped worrying about logistics after I called them.</small>
+										<small class="smallest mute">- John Lennon</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="img/stockphoto.jpg" alt="" class="rounded-circle img-fluid">
+									</div>
+									<div class="col-sm-9">
+										<h3>The best in travel lodgings!</h3>
+										<small>Wanted to visit the quaint areas of Ladakh to practice my music, but it was proving impossible given my schedule. Thankfully Expeditious travels saved me by finding the right time, duration of package. I dedicate my Grammy to them.</small>
+										<small class="smallest mute">- Paul McCarthy</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="float-right navi">
+						<a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon ico" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer containing social media links, contact details -->
+	<footer id="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<p>Copyright 2018.</p>
+				</div>
+				<div class="col-sm-3">
+					<ul class="list-unstyled">
+						<li><a href="">home</a></li>
+						<li><a href="">what we do</a></li>
+						<li><a href="">about</a></li>
+						<li><a href="">latest</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h6>Follow us</h6>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#Facebook"><i class="fa fa-facebook-square fa-2x social"></i></a></li>
+						<li class="list-inline-item"><a href="#Twitter"><i class="fa fa-twitter-square fa-2x social"></i></a></li>
+						<li class="list-inline-item"><a href="#YouTube"><i class="fa fa-google-plus-square fa-2x social"></i></a></li>
+						<li class="list-inline-item"><a href="#LinkedIn"><i class="fa fa-linkedin-square fa-2x social"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h6>Contact us</h6>
+					<ul class="list-inline">
+						<li class="list-inline-item">Toll free: 18002800300</li>
+						<li class="list-inline-item"><a href="mailto:abc@example.com"><i class="fa fa-envelope-square fa-2x social"></i></a></li>
+						<li><hr></li>
+						<li>
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" placeholder="drop us a mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+									
+								</div>
+								
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+	</footer>
+</body>
+</html>
